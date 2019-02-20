@@ -41,8 +41,13 @@
    })
 
 ```
+### 添加卡片
+ + 
+ + 当点击添加卡片按钮时就要改变卡片位置
 
-## 美化组件--CSS模块化
+## 美化组件--CSS模块化 
+(create-react-app有自己webpack配置，可以执行`npm eun eject`自定义webpack配置,若不是用create-react-app脚手架则按下面步骤)
+
  `npm install --save-dev webpack webpack-dev-server `
 
  `npm install --save-dev babel-loader babel-core 
@@ -52,3 +57,10 @@ babel-preset-react`
 `npm install --save-dev style-loader CSS-loader `
 
 `npm install --save-dev html-webpack-plugin `
+
+
+####  Css Modules 在 react 中的使用
+ `npm install react-css-modulse`
+css文件的命名记得要改成 [name].module.css
+
+

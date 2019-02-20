@@ -1,0 +1,40 @@
+.mg0{
+    margin: 0
+}
+.button{
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em;
+    background: rgb(70, 51, 177);
+    margin:2em 0 2em 2em;
+    color: aliceblue;
+    /* text-align: center; */
+}
+.cards{
+   font-size: inherit;
+   display: flex;
+   justify-content: flex-start;
+ 
+}
+.card-item{
+    padding: 1em;
+    border: 1px;
+    width: 13em;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    margin-left:2em;
+   
+    
+}
+.card-content{
+
+}
+.card-item h3{
+   /* font-size:  */
+   margin: 0;
+}
+.card-item p{
+    margin: 0;
+    padding: 1em 0;
+}
