@@ -47,14 +47,7 @@ class Card extends Component {
     this.setState({
       listData :  newList
     })
-   
-
   }
-  
-
-
-
-
   render() {
     const { listData } = this.state
     return (
